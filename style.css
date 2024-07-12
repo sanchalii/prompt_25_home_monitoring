@@ -1,0 +1,238 @@
+*
+{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+html,body{
+width:100%;
+height:100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000d6;
+    position: relative;
+}
+nav{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.header{
+    width: 65%;
+    height: 20%;
+    /* border: 1px solid white; */
+    position: absolute;
+    display: flex;
+    top: -2%;
+    left: 7%;
+}
+.header>.left,.header>.right{
+    width: 50%;
+    height: 100%;
+   
+   
+    
+    
+}
+.left>button{
+    width: 35%;
+    height: 25%;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.left>h3,.left>p{
+    color: white;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+    justify-content: center;
+}
+.right>h2{
+    font-weight: 400;
+}
+.right>p{
+    font-size: 80%;
+    font-weight: 400;
+}
+main{
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.45);
+    position: absolute;
+    border-radius: 20px;
+    top: 18%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-main{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    padding-left:20px;
+    gap: 7%;
+    align-items: center;
+    color: white;
+}
+.content{
+    width: 95%;
+    height: 90%;
+    /* border: 1px solid white; */
+}
+.upper{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    color: white;
+    justify-content: start;
+    gap: 10px;
+
+}
+.upper>h3{
+    font-size: 100%;
+    font-weight: 400;
+}
+.upper>button{
+    border-radius: 10px;
+    margin-left: 60%;
+    width: 7%;
+    height: 70%;
+}
+.photo{
+    width: 95%;
+    height: 40%;
+    /* border: 1px solid white; */
+    background-image: url(bedroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.lower{
+    width: 95%;
+    height: 42%;
+    margin-top: 10px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.457);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.lower>.l1,.lower>.r1{
+        width: 48%;
+        height: 100%;
+        /* border: 1px solid white; */
+
+        
+}
+.box>i{
+    font-size: 180%;
+    background-color:rgba(128, 128, 128, 0.281);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.box>.name{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box>button{
+    width: 20%;height: 25%;
+}
+.right-box{
+    width: 25%;
+    padding: 10px;
+    height: 80%;
+    position: absolute;
+    top:19%;
+    left: 70%;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 20px;
+}
+.right-box>h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 220%;
+    font-weight: 400;
+    text-align: center;
+}
+.right-box>.upar{
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin-top: 20px
+    
+}
+.upar>.rows{
+    width: 100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    color: white;
+    
+}
+.rows>i{
+    font-size: 250%;
+    color: white;
+}
+.niche{
+    width: 95%;
+    height: 40%;
+}
+.rows>h4{
+    text-align: center;
+    width: 40%;
+   
+    margin: 40%;
+}
+.right-box>img{
+    width: 50%;
+    height: 25%;
+    object-fit: cover;
+    position: absolute;
+    top: -18%;
+    left: 55%;
+
+}
